@@ -30,7 +30,7 @@
         {capture "email"}
             <div class="email">
                 {if !$hideUserInfo && !$hideDetails && $isResourcePermitted}
-                    {$email}
+                    redacted
                 {/if}
             </div>
         {/capture}

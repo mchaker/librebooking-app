@@ -60,7 +60,7 @@ class UserSession
 
     public function __toString()
     {
-        return "{$this->FirstName} {$this->LastName} ({$this->Email})";
+        return "{$this->FirstName} {$this->LastName}";
     }
 
     public function FullName()
